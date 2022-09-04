@@ -1,5 +1,4 @@
 import random
-import random
 
 
 string = input("Enter your word: ")
