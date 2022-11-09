@@ -1,0 +1,20 @@
+{
+    "+380-22-222-22-22": {
+        "first_name": "Dmytro",
+        "last_name": "Hrabovyi",
+        "full_name": "Dmytro Hrabovyi",
+        "address": {
+            "state": "Ukraine",
+            "city": "Drogobych"
+        }
+    },
+    "+380-33-333-33-33": {
+        "first_name": "Ivan",
+        "last_name": "Prokopovych",
+        "full_name": "Ivan Prokopovych",
+        "address": {
+            "state": "Ukraine",
+            "city": "Lviv"
+        }
+    }
+}
