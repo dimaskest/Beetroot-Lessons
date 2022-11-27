@@ -24,7 +24,8 @@ def parenthesesChecker(par_string: str):
     
     while index < len(par_string) and balanced:
         par = par_string[index]
-        if par == "(":
+        
+        if par == "(" or par == "[" or par == "{":
             stack.push(par)
         else:
             if stack.isEmpty():
@@ -39,4 +40,4 @@ def parenthesesChecker(par_string: str):
     
     return balanced
 
-print(parenthesesChecker("(())()"))
+print(parenthesesChecker("(())(())"))
